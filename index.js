@@ -5,7 +5,8 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 app.get("/more", (req, res) => {
-  res.send("more data comming sone");
+  res.send("more data comming sone")
+  // .then()
 });
 
 app.listen(port, () => {
